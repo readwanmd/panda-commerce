@@ -1,5 +1,5 @@
 .container {
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 .background {
@@ -22,4 +22,46 @@
     border-radius: 5px;
     padding: 10px 25px;
     cursor: pointer;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cat1 {
+    background-color: #ff136f;
+}
+
+.cat2 {
+    background-color: #048888;
+}
+
+.cat3 {
+    background-color: #4bcc00;
+}
+
+.card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+    border-top: none;
+    background-color: white;
+}
+
+#subscribe {
+    height: 300px;
+}
+
+#subscribe h6 {
+    color: gray;
+}
+
+footer {
+    text-align: center;
 }
